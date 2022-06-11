@@ -1,0 +1,15 @@
+<resources>
+
+    <string-array name="mod_voci">
+        <item>Chiara</item>
+        <item>Scura</item>
+        <item>Segui sistema</item>
+    </string-array>
+
+    <string-array name="mod_valori">
+        <item>nightModeOff</item>
+        <item>nightModeOn</item>
+        <item>nightModeFollowSystem</item>
+    </string-array>
+
+</resources>

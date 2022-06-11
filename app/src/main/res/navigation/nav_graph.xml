@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.mardev.calcolaSconto.HomeFragment"
+        android:label="@string/home_fragment_label"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/AboutFragment"
+        android:name="com.mardev.calcolaSconto.AboutFragment"
+        android:label="@string/about_fragment_label"
+        tools:layout="@layout/fragment_about"></fragment>
+
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="com.mardev.calcolaSconto.SettingsFragment"
+        android:label="@string/settings_fragment_label"></fragment>
+
+</navigation>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:id="@+id/cardView1"
+            style="@style/Widget.Material3.CardView.Filled"
+            android:layout_height="90dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toTopOf="@id/cardView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textColor="?attr/colorOnBackground"
+                android:textSize="18sp"
+                android:drawableTop="@drawable/ic_baseline_translate"
+                android:layout_gravity="center_horizontal"
+                android:text="Aiuta con le traduzioni"></com.google.android.material.textview.MaterialTextView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorOnBackground"
+                android:paddingBottom="12dp"
+                android:text="Apri una richiesta di modifica su Github"
+                android:layout_gravity="bottom|center_horizontal"></com.google.android.material.textview.MaterialTextView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:id="@+id/cardView2"
+            style="@style/Widget.Material3.CardView.Filled"
+            android:layout_height="90dp"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toTopOf="@id/cardView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView1">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textColor="?attr/colorOnBackground"
+                android:textSize="18sp"
+                android:drawableTop="@drawable/ic_baseline_feedback"
+                android:layout_gravity="center_horizontal"
+                android:text="Feedback e richieste"></com.google.android.material.textview.MaterialTextView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorOnBackground"
+                android:paddingBottom="12dp"
+                android:text="Questo è un progetto open-source"
+                android:layout_gravity="bottom|center_horizontal"></com.google.android.material.textview.MaterialTextView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:id="@+id/cardView3"
+            style="@style/Widget.Material3.CardView.Filled"
+            android:layout_height="90dp"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView2">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textColor="?attr/colorOnBackground"
+                android:textSize="18sp"
+                android:drawableTop="@drawable/ic_baseline_info"
+                android:layout_gravity="center_horizontal"
+                android:text="Versione app:"></com.google.android.material.textview.MaterialTextView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewVersione"
+                android:textColor="?attr/colorOnBackground"
+                android:paddingBottom="12dp"
+                android:text="1.10"
+                android:layout_gravity="bottom|center_horizontal"></com.google.android.material.textview.MaterialTextView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

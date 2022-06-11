@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Calcola sconto</string>
+    <!-- String usate per la navigazione -->
+    <string name="home_fragment_label">Home</string>
+    <string name="about_fragment_label">Informazioni</string>
+    <string name="settings_fragment_label">Impostazioni</string>
+
+    <!--String usate per menu toolbar-->
+    <string name="action_settings">Impostazioni</string>
+
+    <!--String per impostazioni-->
+    <string name="impostazioni_titolo_aspetto">Aspetto</string>
+
+    <string name="impostazioni_mod_tema_amoled">Modalità nero assoluto</string>
+    <string name="impostazioni_mod_tema_amoled_spiegazione">Sostituisce il grigio di sfondo con il nero</string>
+    <string name="impostazioni_mod_tema">Modalità tema</string>
+
+    <!--Accessibilità-->
+    <string name="content_description_fabCopy">Clicca per copiare il valore</string>
+    <string name="impostazioni_titolo_preferenze">Preferenze</string>
+    <string name="impostazioni_vibra">Vibrazione</string>
+    <string name="impostazioni_vibra_spiegazione">Scegli se attivare la vibrazione dei pulsanti</string>
+
+</resources>

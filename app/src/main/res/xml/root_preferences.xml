@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/impostazioni_titolo_aspetto">
+        <ListPreference
+            android:entries="@array/mod_voci"
+            android:icon="@drawable/ic_baseline_brightness"
+            android:entryValues="@array/mod_valori"
+            android:key="modTema"
+            app:defaultValue="nightModeFollowSystem"
+            app:useSimpleSummaryProvider="true"
+            android:title="@string/impostazioni_mod_tema" />
+
+        <SwitchPreference
+            android:title="@string/impostazioni_mod_tema_amoled"
+            android:summary="@string/impostazioni_mod_tema_amoled_spiegazione"
+            android:key="modAmoled"
+            android:icon="@drawable/ic_baseline_settings_brightness"
+            app:defaultValue="false"></SwitchPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/impostazioni_titolo_preferenze">
+
+        <SwitchPreference
+            android:title="@string/impostazioni_vibra"
+            android:summary="@string/impostazioni_vibra_spiegazione"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_baseline_vibration"
+            android:key="vibra">
+
+        </SwitchPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
