@@ -6,13 +6,13 @@
         android:id="@id/HomeFragment"
         android:checkable="true"
         android:icon="@drawable/ic_baseline_home"
-        android:title="Home"
+        android:title="@string/drawer_menu_action_home"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@id/AboutFragment"
         android:checkable="true"
         android:icon="@drawable/ic_baseline_info"
-        android:title="Informazioni"
+        android:title="@string/drawer_menu_action_about"
         app:showAsAction="ifRoom" />
 </menu>

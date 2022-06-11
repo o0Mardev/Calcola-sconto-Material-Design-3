@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/drawable/ic_baseline_brightness.xml" value="0.1" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/drawable/ic_baseline_content_copy.xml" value="0.1" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/drawable/ic_baseline_feedback.xml" value="0.1" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/drawable/ic_baseline_home.xml" value="0.1895" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/drawable/ic_baseline_info.xml" value="0.1" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/drawable/ic_baseline_settings_brightness.xml" value="0.1" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/drawable/ic_baseline_translate.xml" value="0.1" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/drawable/ic_baseline_vibration.xml" value="0.163" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/layout-land/fragment_home.xml" value="0.21164021164021163" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/layout/content_main.xml" value="0.264" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/layout/fragment_about.xml" value="0.264" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/layout/header_navigation_drawer.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/menu/menu_navigation_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/Marco/Documents/Android Studio Projects/Calcola-sconto-m3/app/src/main/res/xml/root_preferences.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

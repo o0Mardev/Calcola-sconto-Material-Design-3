@@ -1,24 +1,54 @@
 <resources>
     <string name="app_name">Calcola sconto</string>
-    <!-- String usate per la navigazione -->
+
+
+    <!--Avvisi-->
+    <string name="toast_error_1">Inserisci dei valori validi</string>
+    <string name="toast_error_2">Inserisci una percentuale valida</string>
+    <string name="snackbar_result_copied">Risultato copiato negli appunti</string>
+
+    <!--HomeFragment-->
+    <string name="symbol_currency">\u0020€</string>
+    <string name="default_value">0.00\u0020 €</string>
+    <string name="btn_calculate">Calcola</string>
+    <string name="btn_clear">Azzera</string>
+    <string name="btn_copy">Copia risultato</string>
+    <string name="input_text_hint_1">Inserisci prezzo</string>
+    <string name="input_text_hint_2">Inserisci percentuale</string>
+    <string name="saving_text">Risparmio:</string>
+
+    <!--AboutFragment-->
+    <string name="card_view_title_1">Aiuta con le traduzioni</string>
+    <string name="card_view_description_1">Apri una richiesta di modifica su Github</string>
+    <string name="card_view_title_2">Feedback e richieste</string>
+    <string name="card_view_description_2">Questo è un progetto open-source</string>
+    <string name="card_view_title_3">Versione app:</string>
+
+
+
+    <!--Navigazione - Menu -->
     <string name="home_fragment_label">Home</string>
     <string name="about_fragment_label">Informazioni</string>
     <string name="settings_fragment_label">Impostazioni</string>
-
-    <!--String usate per menu toolbar-->
     <string name="action_settings">Impostazioni</string>
+    <string name="drawer_menu_subtitle">By Mardev</string>
+    <string name="drawer_menu_action_home">Home</string>
+    <string name="drawer_menu_action_about">Informazioni</string>
 
-    <!--String per impostazioni-->
-    <string name="impostazioni_titolo_aspetto">Aspetto</string>
-
-    <string name="impostazioni_mod_tema_amoled">Modalità nero assoluto</string>
-    <string name="impostazioni_mod_tema_amoled_spiegazione">Sostituisce il grigio di sfondo con il nero</string>
-    <string name="impostazioni_mod_tema">Modalità tema</string>
 
     <!--Accessibilità-->
     <string name="content_description_fabCopy">Clicca per copiare il valore</string>
-    <string name="impostazioni_titolo_preferenze">Preferenze</string>
-    <string name="impostazioni_vibra">Vibrazione</string>
-    <string name="impostazioni_vibra_spiegazione">Scegli se attivare la vibrazione dei pulsanti</string>
+
+    <!--Impostazioni-->
+    <string name="settings_title_appearance">Aspetto</string>
+    <string name="settings_title_preferences">Preferenze</string>
+
+    <string name="settings_mod_theme">Modalità tema</string>
+
+    <string name="settings_mod_theme_amoled">Modalità nero assoluto</string>
+    <string name="settings_mod_theme_amoled_explanation">Sostituisce il grigio di sfondo con il nero</string>
+
+    <string name="settings_vibration">Vibrazione</string>
+    <string name="settings_vibration_explanation">Scegli se attivare la vibrazione dei pulsanti</string>
 
 </resources>

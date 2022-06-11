@@ -13,7 +13,7 @@
         android:fontFamily="sans-serif"
         android:layout_marginTop="30dp"
         android:layout_marginStart="30dp"
-        android:text="0,00 €"
+        android:text="@string/default_value"
         android:textSize="35sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -22,29 +22,31 @@
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/textInputPrezzo"
-        android:inputType="numberDecimal"
         android:layout_width="230dp"
         android:layout_height="50dp"
-        android:layout_marginTop="30dp"
         android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/input_text_hint_1"
+        android:inputType="numberDecimal"
         android:textSize="20sp"
-        android:hint="Inserisci prezzo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewRisultato">
+        app:layout_constraintTop_toBottomOf="@+id/textViewRisultato"
+        tools:ignore="TextContrastCheck">
 
     </com.google.android.material.textfield.TextInputEditText>
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/textInputPercentuale"
-        android:inputType="numberDecimal"
         android:layout_width="230dp"
         android:layout_height="50dp"
-        android:layout_marginTop="30dp"
         android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/input_text_hint_2"
+        android:inputType="numberDecimal"
         android:textSize="20sp"
-        android:hint="Inserisci percentuale"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputPrezzo">
+        app:layout_constraintTop_toBottomOf="@+id/textInputPrezzo"
+        tools:ignore="TextContrastCheck">
 
     </com.google.android.material.textfield.TextInputEditText>
 
@@ -52,7 +54,7 @@
         android:id="@+id/btnCalcolaSconto"
         android:layout_width="130dp"
         android:layout_height="60dp"
-        android:text="Calcola"
+        android:text="@string/btn_calculate"
         android:layout_marginTop="50dp"
         android:layout_marginStart="20dp"
         android:textSize="20sp"
@@ -65,7 +67,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="30dp"
-        android:text="Azzera"
+        android:text="@string/btn_clear"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnCalcolaSconto"
@@ -86,9 +88,10 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:paddingStart="10dp"
-            android:text="Risparmio: "
+            android:paddingEnd="5dp"
+            android:text="@string/saving_text"
             android:textColor="?attr/colorOnSecondary"
-            android:textSize="20sp"></com.google.android.material.textview.MaterialTextView>
+            android:textSize="20sp" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/textViewRisparmio"
@@ -102,7 +105,7 @@
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:id="@+id/fab"
-        android:text="Copia risultato"
+        android:text="@string/btn_copy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/content_description_fabCopy"

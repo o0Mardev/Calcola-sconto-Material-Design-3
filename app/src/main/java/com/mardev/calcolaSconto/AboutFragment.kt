@@ -24,22 +24,22 @@ class AboutFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-        binding.cardView1.setOnClickListener() {
+        binding.cardView1.setOnClickListener {
             VibratorHelper.vibra(requireContext(), 60)
             val intent = Intent()
             intent.action = Intent.ACTION_VIEW
             intent.addCategory(Intent.CATEGORY_BROWSABLE)
             intent.data =
-                Uri.parse("https://github.com/o0Mardev/Calcola_Sconto/tree/master/app/src/main/res")
+                Uri.parse("https://github.com/o0Mardev/Calcola-sconto-Material-Design-3/tree/master/app/src/main/res")
             startActivity(intent)
         }
 
-        binding.cardView2.setOnClickListener() {
+        binding.cardView2.setOnClickListener {
             VibratorHelper.vibra(requireContext(), 60)
             val intent = Intent()
             intent.action = Intent.ACTION_VIEW
             intent.addCategory(Intent.CATEGORY_BROWSABLE)
-            intent.data = Uri.parse("https://github.com/o0Mardev/Calcola_Sconto/pulls")
+            intent.data = Uri.parse("https://github.com/o0Mardev/Calcola-sconto-Material-Design-3/pulls")
             startActivity(intent)
         }
 

@@ -31,15 +31,15 @@
                 android:textSize="18sp"
                 android:drawableTop="@drawable/ic_baseline_translate"
                 android:layout_gravity="center_horizontal"
-                android:text="Aiuta con le traduzioni"></com.google.android.material.textview.MaterialTextView>
+                android:text="@string/card_view_title_1" />
 
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="?attr/colorOnBackground"
                 android:paddingBottom="12dp"
-                android:text="Apri una richiesta di modifica su Github"
-                android:layout_gravity="bottom|center_horizontal"></com.google.android.material.textview.MaterialTextView>
+                android:text="@string/card_view_description_1"
+                android:layout_gravity="bottom|center_horizontal" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -64,15 +64,15 @@
                 android:textSize="18sp"
                 android:drawableTop="@drawable/ic_baseline_feedback"
                 android:layout_gravity="center_horizontal"
-                android:text="Feedback e richieste"></com.google.android.material.textview.MaterialTextView>
+                android:text="@string/card_view_title_2" />
 
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="?attr/colorOnBackground"
                 android:paddingBottom="12dp"
-                android:text="Questo è un progetto open-source"
-                android:layout_gravity="bottom|center_horizontal"></com.google.android.material.textview.MaterialTextView>
+                android:text="@string/card_view_description_2"
+                android:layout_gravity="bottom|center_horizontal" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -97,7 +97,7 @@
                 android:textSize="18sp"
                 android:drawableTop="@drawable/ic_baseline_info"
                 android:layout_gravity="center_horizontal"
-                android:text="Versione app:"></com.google.android.material.textview.MaterialTextView>
+                android:text="@string/card_view_title_3" />
 
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="wrap_content"
@@ -105,8 +105,7 @@
                 android:id="@+id/textViewVersione"
                 android:textColor="?attr/colorOnBackground"
                 android:paddingBottom="12dp"
-                android:text="1.10"
-                android:layout_gravity="bottom|center_horizontal"></com.google.android.material.textview.MaterialTextView>
+                android:layout_gravity="bottom|center_horizontal" />
 
         </com.google.android.material.card.MaterialCardView>
 

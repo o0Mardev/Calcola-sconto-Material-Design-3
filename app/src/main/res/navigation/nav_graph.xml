@@ -14,11 +14,11 @@
         android:id="@+id/AboutFragment"
         android:name="com.mardev.calcolaSconto.AboutFragment"
         android:label="@string/about_fragment_label"
-        tools:layout="@layout/fragment_about"></fragment>
+        tools:layout="@layout/fragment_about" />
 
     <fragment
         android:id="@+id/SettingsFragment"
         android:name="com.mardev.calcolaSconto.SettingsFragment"
-        android:label="@string/settings_fragment_label"></fragment>
+        android:label="@string/settings_fragment_label" />
 
 </navigation>

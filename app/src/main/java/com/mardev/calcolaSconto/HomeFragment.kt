@@ -42,25 +42,22 @@ class HomeFragment : Fragment() {
             val percentuale = inputTesto(binding.textInputPercentuale)
 
             if (prezzo == 0.0 || percentuale == 0.0) {
-                Toast.makeText(context, "Inserisci dei valori validi", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, getString(R.string.toast_error_1), Toast.LENGTH_SHORT).show()
             } else if (percentuale > 100) {
-                Toast.makeText(context, "Inserisci una percentuale valida", Toast.LENGTH_SHORT)
-                    .show()
+                Toast.makeText(context, getString(R.string.toast_error_2), Toast.LENGTH_SHORT).show()
             } else {
-                prezzoFinale =
-                    (((((100 - percentuale) / 100) * prezzo) * 100.0).roundToInt()) / 100.0
+                prezzoFinale = (((((100 - percentuale) / 100) * prezzo) * 100.0).roundToInt()) / 100.0
                 val risparmio = (((prezzo - prezzoFinale) * 100.0).roundToInt()) / 100.0
 
-
-                binding.textViewRisparmio.text = DecimalFormat("0.00").format(risparmio) + " €"
-                binding.textViewRisultato.text = DecimalFormat("0.00").format(prezzoFinale) + " €"
+                binding.textViewRisparmio.text = DecimalFormat("0.00").format(risparmio) + getString(R.string.symbol_currency)
+                binding.textViewRisultato.text = DecimalFormat("0.00").format(prezzoFinale) + getString(R.string.symbol_currency)
             }
         }
 
         //Quando premi su Azzera
         binding.btnAzzera.setOnClickListener {
             VibratorHelper.vibra(requireContext(), 60)
-            binding.textViewRisultato.text = "0,00 €"
+            binding.textViewRisultato.text = getString(R.string.default_value)
             binding.textInputPrezzo.text = null
             binding.textInputPercentuale.text = null
             binding.textViewRisparmio.text = null
@@ -69,7 +66,7 @@ class HomeFragment : Fragment() {
         //Quando premi su Copia risultato
         binding.fab.setOnClickListener {
             VibratorHelper.vibra(requireContext(), 60)
-            Snackbar.make(view, "Risultato copiato negli appunti", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, getString(R.string.snackbar_result_copied), Snackbar.LENGTH_LONG)
                 .setAnchorView(R.id.fab).show()
             val clipboardManager =
                 requireActivity().getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
