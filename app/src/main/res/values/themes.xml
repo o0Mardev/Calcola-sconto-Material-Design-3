@@ -1,8 +1,20 @@
 <resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.CalcolaSconto" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">#9c4234</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <item name="colorPrimaryContainer">#ffdad4</item>
+        <item name="colorOnPrimaryContainer">#400100</item>
+        <item name="colorSecondary">#775651</item>
+        <item name="colorOnSecondary">#ffffff</item>
+        <item name="colorSecondaryContainer">#ffdad4</item>
+        <item name="colorOnSecondaryContainer">#2c1511</item>
+        <item name="colorTertiary">#6f5c2e</item>
+        <item name="colorOnTertiary">#ffffff</item>
+        <item name="colorTertiaryContainer">#fbe0a6</item>
+        <item name="colorOnTertiaryContainer">#251a00</item>
+
         <item name="alertDialogTheme">@style/AlertDialogTheme</item>
     </style>
 

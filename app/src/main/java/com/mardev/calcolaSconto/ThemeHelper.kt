@@ -34,8 +34,8 @@ object ThemeHelper {
             val intent = activity.intent
             intent?.putExtra("TEMA_CAMBIATO", true)
             activity.finish()
-            activity.startActivity(intent)
             activity.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+            activity.startActivity(intent)
         }
     }
 
