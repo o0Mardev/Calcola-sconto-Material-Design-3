@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.WindowCompat
 import androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_LOCKED_CLOSED
 import androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_UNLOCKED
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentTransaction
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.navOptions
@@ -54,7 +56,10 @@ class MainActivity : AppCompatActivity() {
                 binding.drawerLayout.setDrawerLockMode(LOCK_MODE_UNLOCKED)
             }
         }
+    }
 
+    override fun onResume() {
+        super.onResume()
         //Se MainActivity viene ricreata ritorno in SettingsFragment per avere una bella animazione
         if (intent.extras != null) {
             if (intent.extras!!.getBoolean("TEMA_CAMBIATO")) {
