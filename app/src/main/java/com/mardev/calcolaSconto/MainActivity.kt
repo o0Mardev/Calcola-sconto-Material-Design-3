@@ -1,5 +1,6 @@
 package com.mardev.calcolaSconto
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -63,6 +64,7 @@ class MainActivity : AppCompatActivity() {
         //Se MainActivity viene ricreata ritorno in SettingsFragment per avere una bella animazione
         if (intent.extras != null) {
             if (intent.extras!!.getBoolean("TEMA_CAMBIATO")) {
+                intent.putExtra("TEMA_CAMBIATO", false)
                 navController.navigate(R.id.SettingsFragment)
             }
         }

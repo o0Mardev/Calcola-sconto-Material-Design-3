@@ -9,7 +9,7 @@
 
     <!--HomeFragment-->
     <string name="symbol_currency">\u0020€</string>
-    <string name="default_value">0.00\u0020 €</string>
+    <string name="default_value">0,00\u0020 €</string>
     <string name="btn_calculate">Calcola</string>
     <string name="btn_clear">Azzera</string>
     <string name="btn_copy">Copia risultato</string>
