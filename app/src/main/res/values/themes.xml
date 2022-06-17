@@ -2,18 +2,18 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.CalcolaSconto" parent="Theme.Material3.DayNight.NoActionBar">
 
-        <item name="colorPrimary">#9c4234</item>
-        <item name="colorOnPrimary">#ffffff</item>
-        <item name="colorPrimaryContainer">#ffdad4</item>
-        <item name="colorOnPrimaryContainer">#400100</item>
-        <item name="colorSecondary">#775651</item>
-        <item name="colorOnSecondary">#ffffff</item>
-        <item name="colorSecondaryContainer">#ffdad4</item>
-        <item name="colorOnSecondaryContainer">#2c1511</item>
-        <item name="colorTertiary">#6f5c2e</item>
-        <item name="colorOnTertiary">#ffffff</item>
-        <item name="colorTertiaryContainer">#fbe0a6</item>
-        <item name="colorOnTertiaryContainer">#251a00</item>
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainerLight</item>
+        <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainerLight</item>
+        <item name="colorSecondary">@color/colorSecondaryLight</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="colorSecondaryContainer">@color/colorSecondaryContainerLight</item>
+        <item name="colorOnSecondaryContainer">@color/colorOnSecondaryContainerLight</item>
+        <item name="colorTertiary">@color/colorTertiaryLight</item>
+        <item name="colorOnTertiary">@android:color/white</item>
+        <item name="colorTertiaryContainer">@color/colorTertiaryContainerLight</item>
+        <item name="colorOnTertiaryContainer">@color/colorOnTertiaryContainerLight</item>
 
         <item name="alertDialogTheme">@style/AlertDialogTheme</item>
     </style>

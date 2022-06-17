@@ -1,2 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources />
+<resources>
+
+    <color name="colorPrimaryLight">#9c4234</color>
+    <color name="colorPrimaryDark">#ffb4a7</color>
+
+    <color name="colorOnPrimaryDark">#5f150c</color>
+
+    <color name="colorPrimaryContainerLight">#ffdad4</color>
+    <color name="colorPrimaryContainerDark">#7d2b1f</color>
+
+    <color name="colorOnPrimaryContainerLight">#400100</color>
+    <color name="colorOnPrimaryContainerDark">#ffdad4</color>
+
+    <color name="colorSecondaryLight">#775651</color>
+    <color name="colorSecondaryDark">#e7bdb6</color>
+
+    <color name="colorOnSecondaryDark">#442925</color>
+
+    <color name="colorSecondaryContainerLight">#ffdad4</color>
+    <color name="colorSecondaryContainerDark">#5d3f3a</color>
+
+    <color name="colorOnSecondaryContainerLight">#2c1511</color>
+    <color name="colorOnSecondaryContainerDark">#ffdad4</color>
+
+    <color name="colorTertiaryLight">#6f5c2e</color>
+    <color name="colorTertiaryDark">#ddc48c</color>
+
+    <color name="colorOnTertiaryDark">#3e2e04</color>
+
+    <color name="colorTertiaryContainerLight">#fbe0a6</color>
+    <color name="colorTertiaryContainerDark">#564419</color>
+
+    <color name="colorOnTertiaryContainerLight">#251a00</color>
+    <color name="colorOnTertiaryContainerDark">#fbe0a6</color>
+
+</resources>

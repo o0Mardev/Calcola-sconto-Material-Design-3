@@ -2,19 +2,18 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.CalcolaSconto" parent="Theme.Material3.DayNight.NoActionBar">
 
-        <item name="colorPrimary">#ffb4a7</item>
-        <item name="colorOnPrimary">#5f150c</item>
-        <item name="colorPrimaryContainer">#7d2b1f</item>
-        <item name="colorOnPrimaryContainer">#ffdad4</item>
-        <item name="colorSecondary">#e7bdb6</item>
-        <item name="colorOnSecondary">#442925</item>
-        <item name="colorSecondaryContainer">#5d3f3a</item>
-        <item name="colorOnSecondaryContainer">#ffdad4</item>
-        <item name="colorTertiary">#ddc48c</item>
-        <item name="colorOnTertiary">#3e2e04</item>
-        <item name="colorTertiaryContainer">#564419</item>
-        <item name="colorOnTertiaryContainer">#fbe0a6</item>
-
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimaryDark</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainerDark</item>
+        <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainerDark</item>
+        <item name="colorSecondary">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/colorOnSecondaryDark</item>
+        <item name="colorSecondaryContainer">@color/colorSecondaryContainerDark</item>
+        <item name="colorOnSecondaryContainer">@color/colorOnSecondaryContainerDark</item>
+        <item name="colorTertiary">@color/colorTertiaryDark</item>
+        <item name="colorOnTertiary">@color/colorOnTertiaryDark</item>
+        <item name="colorTertiaryContainer">@color/colorTertiaryContainerDark</item>
+        <item name="colorOnTertiaryContainer">@color/colorOnTertiaryContainerDark</item>
 
         <item name="alertDialogTheme">@style/AlertDialogTheme</item>
     </style>
