@@ -3,6 +3,7 @@ package com.mardev.calcolaSconto
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.WindowCompat
@@ -15,6 +16,8 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.github.javiersantos.appupdater.AppUpdater
+import com.github.javiersantos.appupdater.enums.UpdateFrom
 import com.mardev.calcolaSconto.databinding.ActivityMainBinding
 
 
@@ -29,6 +32,13 @@ class MainActivity : AppCompatActivity() {
         WindowCompat.setDecorFitsSystemWindows(window, false)
 
         super.onCreate(savedInstanceState)
+
+        val appUpdater = AppUpdater(this)
+            .setUpdateFrom(UpdateFrom.GITHUB)
+            .setGitHubUserAndRepo("o0Mardev", "Calcola-sconto-Material-Design-3")
+        appUpdater.start()
+
+        Toast.makeText(this, "TEST", Toast.LENGTH_SHORT).show()
 
         //Viene chiamato dopo super.onCreate così isNightMode restituisce il valore corretto
         when (ThemeHelper.nightModeChoice(this)) {
