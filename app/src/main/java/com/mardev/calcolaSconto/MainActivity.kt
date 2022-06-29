@@ -1,6 +1,5 @@
 package com.mardev.calcolaSconto
 
-import android.graphics.Color
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -9,8 +8,6 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.WindowCompat
 import androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_LOCKED_CLOSED
 import androidx.drawerlayout.widget.DrawerLayout.LOCK_MODE_UNLOCKED
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentTransaction
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.navOptions
@@ -33,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
 
-        //Viene chiamato dopo super.onCreate perché altrimenti isNightMode non restituisce il valore corretto
+        //Viene chiamato dopo super.onCreate così isNightMode restituisce il valore corretto
         when (ThemeHelper.nightModeChoice(this)) {
             "nightModeFollowSystem" -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
             "nightModeOn" -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
