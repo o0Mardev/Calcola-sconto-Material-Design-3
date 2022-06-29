@@ -23,8 +23,4 @@
         <item name="android:colorBackground">?attr/colorSurface</item>
     </style>
 
-    <style name="Black_Theme">
-        <item name="colorSurface">@android:color/black</item>
-    </style>
-
 </resources>

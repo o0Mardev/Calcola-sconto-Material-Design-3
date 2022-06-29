@@ -3,7 +3,6 @@ package com.mardev.calcolaSconto
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.WindowCompat
@@ -33,6 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
 
+
         val appUpdater = AppUpdater(this)
             .setUpdateFrom(UpdateFrom.GITHUB)
             .setGitHubUserAndRepo("o0Mardev", "Calcola-sconto-Material-Design-3")
@@ -47,6 +47,10 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        //Applica il tema amoled
+        ThemeHelper.applyAmoled(this, findViewById(R.id.content_main))
+
         setSupportActionBar(binding.toolbar)
         navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(navController.graph, binding.drawerLayout)

@@ -28,7 +28,8 @@ class SettingsFragment : PreferenceFragmentCompat(),
     override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences?, key: String?) {
         if (isAdded) {
             if (key == "modTema") {
-                ThemeHelper.recreate(requireContext(), requireActivity())
+                //Ricrea MainActivity dopo un cambio del tema scuro
+                ThemeHelper.onNightModeChange(requireContext(), requireActivity())
             }
         }
     }
