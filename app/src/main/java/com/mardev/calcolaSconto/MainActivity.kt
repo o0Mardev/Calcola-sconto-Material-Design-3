@@ -38,8 +38,6 @@ class MainActivity : AppCompatActivity() {
             .setGitHubUserAndRepo("o0Mardev", "Calcola-sconto-Material-Design-3")
         appUpdater.start()
 
-        Toast.makeText(this, "TEST", Toast.LENGTH_SHORT).show()
-
         //Viene chiamato dopo super.onCreate così isNightMode restituisce il valore corretto
         when (ThemeHelper.nightModeChoice(this)) {
             "nightModeFollowSystem" -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
