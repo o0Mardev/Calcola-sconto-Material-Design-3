@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Calcola sconto</string>
+
+
+    <!--Avvisi-->
+    <string name="toast_error_1">Please enter valid values</string>
+    <string name="toast_error_2">Please Enter a valid percentage</string>
+    <string name="snackbar_result_copied">Result copied to clipboard</string>
+
+    <!--HomeFragment-->
+    <string name="symbol_currency">\u0020£</string>
+    <string name="default_value">0,00\u0020£</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_copy">Copy result</string>
+    <string name="input_text_hint_1">Enter price</string>
+    <string name="input_text_hint_2">Enter percentage</string>
+    <string name="saving_text">Saving: </string>
+
+    <!--AboutFragment-->
+    <string name="card_view_title_1">Help with translations</string>
+    <string name="card_view_description_1">Open a pull request on Github</string>
+    <string name="card_view_title_2">Feedback and requests</string>
+    <string name="card_view_description_2">This is an open-source project</string>
+    <string name="card_view_title_3">App version:</string>
+
+
+
+    <!--Navigazione - Menu -->
+    <string name="home_fragment_label">Home</string>
+    <string name="about_fragment_label">About</string>
+    <string name="settings_fragment_label">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_menu_subtitle">By Mardev</string>
+    <string name="drawer_menu_action_home">Home</string>
+    <string name="drawer_menu_action_about">About</string>
+
+
+    <!--Accessibilità-->
+    <string name="content_description_fabCopy">Click to copy the result</string>
+
+    <!--Impostazioni-->
+    <string name="settings_title_appearance">Look</string>
+    <string name="settings_title_preferences">Preferences</string>
+
+    <string name="settings_mod_theme">Theme mode</string>
+
+    <string name="settings_mod_theme_amoled">Absolute black mode</string>
+    <string name="settings_mod_theme_amoled_explanation">Replaces grey background with black</string>
+
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_vibration_explanation">Choose whether to activate button vibration</string>
+
+    <string name="mod_voci_1">Light</string>
+    <string name="mod_voci_2">Dark</string>
+    <string name="mod_voci_3">Follow system</string>
+
+</resources>
