@@ -1,5 +1,5 @@
-# Calcola-sconto-Material-Design-3
-Simple discount calculation application, made according to Material Design 3
+# Calcola sconto Material Design 3
+Semplice applicazione per il calcolo degli sconti, realizzata secondo il Material Design 3
 
 | Modalità chiara  | Modalità chiara |
 |----------------|-----------------|
