@@ -9,7 +9,7 @@
 
     <!--HomeFragment-->
     <string name="symbol_currency">\u0020€</string>
-    <string name="default_value">0,00\u0020 €</string>
+    <string name="default_value">0,00\u0020€</string>
     <string name="btn_calculate">Calcola</string>
     <string name="btn_clear">Azzera</string>
     <string name="btn_copy">Copia risultato</string>
@@ -37,7 +37,7 @@
 
 
     <!--Accessibilità-->
-    <string name="content_description_fabCopy">Clicca per copiare il valore</string>
+    <string name="content_description_fabCopy">Clicca per copiare il risultato</string>
 
     <!--Impostazioni-->
     <string name="settings_title_appearance">Aspetto</string>
@@ -50,5 +50,9 @@
 
     <string name="settings_vibration">Vibrazione</string>
     <string name="settings_vibration_explanation">Scegli se attivare la vibrazione dei pulsanti</string>
+
+    <string name="mod_voci_1">Chiara</string>
+    <string name="mod_voci_2">Scura</string>
+    <string name="mod_voci_3">Segui sistema</string>
 
 </resources>

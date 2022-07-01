@@ -1,9 +1,9 @@
 <resources>
 
     <string-array name="mod_voci">
-        <item>Chiara</item>
-        <item>Scura</item>
-        <item>Segui sistema</item>
+        <item>@string/mod_voci_1</item>
+        <item>@string/mod_voci_2</item>
+        <item>@string/mod_voci_3</item>
     </string-array>
 
     <string-array name="mod_valori">
