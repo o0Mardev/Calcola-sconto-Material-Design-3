@@ -8,6 +8,7 @@ import android.util.Log
 import android.view.View
 import androidx.preference.PreferenceManager
 
+
 object ThemeHelper {
 
 
@@ -30,18 +31,19 @@ object ThemeHelper {
     //Gestisce i cambiamenti di tema aggiornando l' attività solo se necessario
     fun onNightModeChange(context: Context, activity: Activity) {
         var flag = true
-        if (isNightMode(context) && nightModeChoice(context) == "nightModeOn") {
+        val isCurrentNightMode = isNightMode(context)
+        if (isCurrentNightMode && nightModeChoice(context) == "nightModeOn") {
             Log.d("THEME_HELPER", "Non c'è bisogno di aggiornare")
             flag = false
         }
 
-        if (!isNightMode(context) && nightModeChoice(context) == "nightModeOff") {
+        if (!isCurrentNightMode && nightModeChoice(context) == "nightModeOff") {
             Log.d("THEME_HELPER", "Non c'è bisogno di aggiornare")
             flag = false
         }
         if (flag) {
             val intent = activity.intent
-            intent?.putExtra("TEMA_CAMBIATO", true)//Valore che viene inviato a MainActivity (vedi onResume())
+            intent.putExtra("TEMA_CAMBIATO", true)//Valore che viene inviato a MainActivity (vedi onResume())
             activity.finish()
             activity.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
             activity.startActivity(intent)
