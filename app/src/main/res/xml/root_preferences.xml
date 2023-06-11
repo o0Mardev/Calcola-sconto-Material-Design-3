@@ -11,13 +11,6 @@
             app:useSimpleSummaryProvider="true"
             android:title="@string/settings_mod_theme" />
 
-        <SwitchPreference
-            android:title="@string/settings_mod_theme_amoled"
-            android:summary="@string/settings_mod_theme_amoled_explanation"
-            android:key="modAmoled"
-            android:icon="@drawable/ic_baseline_settings_brightness"
-            app:defaultValue="false" />
-
     </PreferenceCategory>
 
     <PreferenceCategory app:title="@string/settings_title_preferences">

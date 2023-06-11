@@ -48,6 +48,7 @@ class AboutFragment : Fragment() {
 
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onPrepareOptionsMenu(menu: Menu) {
         menu.clear()
     }
