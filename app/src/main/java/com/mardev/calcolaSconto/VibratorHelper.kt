@@ -9,13 +9,18 @@ import androidx.preference.PreferenceManager
 
 object VibratorHelper {
 
+    /**
+     * Funzione che restituisce true se la vibrazione è attiva, altrimenti false
+     */
     private fun isVibrationOn(context: Context): Boolean {
         val prefs = PreferenceManager.getDefaultSharedPreferences(context)
         return prefs.getBoolean("vibra", false)
     }
 
 
-    //Funzione per la vibrazione
+    /**
+     * Funzione che fa vibrare il telefono
+     */
     @Suppress("DEPRECATION")
     @JvmStatic
     fun vibra(context: Context, milliseconds: Long) {

@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         appUpdater.start()
 
         //Viene chiamato dopo super.onCreate così isNightMode restituisce il valore corretto
-        when (ThemeHelper.nightModeChoice(this)) {
+        when (ThemeHelper.getNightModeChoice(this)) {
             "nightModeFollowSystem" -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
             "nightModeOn" -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
             "nightModeOff" -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
@@ -47,9 +47,6 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        //Applica il tema amoled
-        ThemeHelper.applyAmoled(this, findViewById(R.id.content_main))
 
         setSupportActionBar(binding.toolbar)
         navController = findNavController(R.id.nav_host_fragment_content_main)
